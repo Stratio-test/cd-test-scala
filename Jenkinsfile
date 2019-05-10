@@ -12,7 +12,7 @@ hose {
 	    doUT(config)
         doIT(config)
         doPackage(config)
-	doStaticAnalysis(conf: config, scoverage: true)
+	doStaticAnalysis(conf: config, scoverage: true, scoverageReportType: 'scoverage-integration')
         doDeploy(config)
     }
 }
