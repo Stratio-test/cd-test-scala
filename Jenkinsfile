@@ -10,9 +10,9 @@ hose {
         echo 'THIS IS MASTER'
         doCompile(config)
 	    doUT(config)
-        doIT(config)
+        doIT(conf: config, scoverage: true)
         doPackage(config)
-	doStaticAnalysis(conf: config, scoverage: true, scoverageReportType: 'scoverage-integration')
+	doStaticAnalysis(conf: config, scoverage: true)
         doDeploy(config)
     }
 }
