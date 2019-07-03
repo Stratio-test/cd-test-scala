@@ -9,7 +9,7 @@ hose {
     DEV = { config ->
         echo 'THIS IS MASTER'
         doCompile(config)
-	    doUT(config)
+	doUT(conf: config, scoverage: true)
         doIT(conf: config, scoverage: true)
         doPackage(config)
 	doStaticAnalysis(conf: config, scoverage: true)
