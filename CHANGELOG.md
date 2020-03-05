@@ -1,5 +1,5 @@
 ## 1.0.0 (March 05, 2020)
 
 * Initial version of cd-test-scala
-* Updated cd-test-parent.version to version 0.5.0-33d8c23
+* Updated cd-test-parent.version to version 0.5.0-4af3ff3
 
