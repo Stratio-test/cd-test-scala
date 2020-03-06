@@ -1,2 +1,2 @@
-#### 1.0.0-df3c984 (Built: March 05, 2020 | Pre-release)
+#### 1.0.0-d2724c1 (Built: March 06, 2020 | Pre-release)
 
